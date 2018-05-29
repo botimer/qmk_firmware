@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_kc(
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
-     ESC , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,GRV ,
+     GRV , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,BSLS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
      TAB , Q  , W  , E  , R  , T  ,                Y  , U  , I  , O  , P  ,BSPC,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
@@ -56,9 +56,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc(
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
-     AGRV,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,PSLS,NLCK,TILD,
+     ESC ,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,PSLS,NLCK,PIPE,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     ATAB,LABK,LCBR,RCBR,RABK,BSLS,               UNDS, P7 , P8 , P9 ,PLUS,    ,
+         ,LABK,LCBR,RCBR,RABK,BSLS,               UNDS, P7 , P8 , P9 ,PLUS,    ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
          ,LBRC,LPRN,RPRN,RBRC,PIPE,               EQL , P4 , P5 , P6 ,MINS,SPC ,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
