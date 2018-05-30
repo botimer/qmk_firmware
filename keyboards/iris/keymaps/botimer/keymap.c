@@ -75,11 +75,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
      F12 , F1 , F2 , F3 , F4 , F5 ,                F6 , F7 , F8 , F9 ,F10 ,F11 ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-         ,WH_L,WH_U,MS_U,WH_D,WH_R,               PAST, P7 , P8 , P9 ,PPLS,BSPC,
+         ,ACL0,WH_U,MS_U,WH_D,BTN4,               PAST, P7 , P8 , P9 ,PPLS,BSPC,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-         ,ACL0,MS_L,MS_D,MS_R,BTN2,               PSLS, P4 , P5 , P6 ,PMNS,PENT,
+         ,ACL1,MS_L,MS_D,MS_R,BTN2,               PSLS, P4 , P5 , P6 ,PMNS,PENT,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-         ,ACL2,BTN4,BTN5,BTN1,BTN3,    ,     NLCK, P0 , P1 , P2 , P3 ,PDOT,PEQL,
+         ,ACL2,WH_L,BTN5,WH_R,BTN3,    ,     NLCK, P0 , P1 , P2 , P3 ,PDOT,PEQL,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                            ,    ,BTN1,         DEL ,    ,
   //                  `----+----+----'        `----+----+----'
